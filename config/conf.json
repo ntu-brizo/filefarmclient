@@ -1,0 +1,34 @@
+{
+    "NETWORK": {
+        "CONNECTION_TIMEOUT": 15000,
+        "STREAM_TIMEOUT": 1200000,
+        "RETRY_TIMEOUT": 500,
+        "MAX_RETRY_TIMES": 10
+    },
+    "SHARD": {
+        "NUM_SHARDS": 4,
+        "NUM_REDUNDANT_SHARDS": 2
+    },
+    "FARMERS": [
+        {
+            "realIp": "140.112.18.201",
+            "ioPort": "7501"
+        },
+        {
+            "realIp": "140.112.18.202",
+            "ioPort": "7501"
+        },
+        {
+            "realIp": "140.112.18.203",
+            "ioPort": "7501"
+        },
+        {
+            "realIp": "140.112.18.204",
+            "ioPort": "7501"
+        },
+        {
+            "realIp": "140.112.18.205",
+            "ioPort": "7501"
+        }
+    ]
+}
